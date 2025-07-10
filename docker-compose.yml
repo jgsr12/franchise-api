@@ -1,39 +1,16 @@
 version: '3.9'
 
 services:
-  mysql:
-    image: mysql:8.0
-    container_name: mysql-db
-    ports:
-      - "3307:3306"
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: franchise_db
-      MYSQL_TCP_PORT: 3306
-    volumes:
-      - mysql_data:/var/lib/mysql
-    healthcheck:
-      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -proot"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-
   app:
     build: .
     container_name: franchise-api
-    depends_on:
-      mysql:
-        condition: service_healthy
     ports:
       - "4400:4400"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/franchise_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: root
+      SPRING_DATASOURCE_URL: jdbc:mysql://${MYSQLHOST}:${MYSQLPORT}/${MYSQLDATABASE}?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: ${MYSQLUSER}
+      SPRING_DATASOURCE_PASSWORD: ${MYSQLPASSWORD}
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SPRING_JPA_SHOW_SQL: "true"
       SERVER_PORT: 4400
     restart: on-failure
-
-volumes:
-  mysql_data:
