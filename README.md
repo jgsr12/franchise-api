@@ -170,13 +170,16 @@ Esto levantará:
 ✅ Conexión a base de datos persistente  
 ✅ Se aplicó programación funcional con uso de `Streams` y `Lambdas` en operaciones sobre colecciones.
 ❌ No se implementó programación reactiva (WebFlux), ya que no era requerida por el alcance de la prueba.
-☁️ Despliegue en la nube:
+☁️ Despliegue en la nube
+✅ API desplegada en Railway: https://franchise-api-production.up.railway.app
+🔗 Repositorio: https://github.com/jgsr12/franchise-api
+La aplicación está completamente funcional en la nube con base de datos MySQL persistente. Puedes probar todos los endpoints directamente desde Postman usando la URL de Railway.
+🌐 Prueba rápida en Railway
+Para verificar que la API esté funcionando, puedes hacer una petición GET a:
 
-🚧 En proceso de despliegue en **Railway** (https://railway.app) desde el repositorio:
-
-🔗 https://github.com/jgsr12/franchise-api
-
-Se actualizará esta sección una vez finalice el despliegue con la URL pública.
+```bash
+https://franchise-api-production.up.railway.app/api/franchises
+```
 
 ---
 
