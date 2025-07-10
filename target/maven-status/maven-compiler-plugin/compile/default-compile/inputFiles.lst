@@ -1,0 +1,15 @@
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\controller\BranchController.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\controller\FranchiseController.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\controller\ProductController.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\dto\UpdateNameRequest.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\dto\UpdateStockRequest.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\FranchiseApiApplication.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\model\Branch.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\model\Franchise.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\model\Product.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\repository\BranchRepository.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\repository\FranchiseRepository.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\repository\ProductRepository.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\service\BranchService.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\service\FranchiseService.java
+C:\Users\Juan\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\franchise-api\src\main\java\com\franchise\api\service\ProductService.java

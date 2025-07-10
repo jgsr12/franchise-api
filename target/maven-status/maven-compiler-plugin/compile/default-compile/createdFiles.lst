@@ -1,0 +1,15 @@
+com\franchise\api\controller\FranchiseController.class
+com\franchise\api\FranchiseApiApplication.class
+com\franchise\api\repository\FranchiseRepository.class
+com\franchise\api\model\Franchise.class
+com\franchise\api\model\Product.class
+com\franchise\api\service\BranchService.class
+com\franchise\api\repository\ProductRepository.class
+com\franchise\api\service\ProductService.class
+com\franchise\api\model\Branch.class
+com\franchise\api\service\FranchiseService.class
+com\franchise\api\dto\UpdateNameRequest.class
+com\franchise\api\dto\UpdateStockRequest.class
+com\franchise\api\controller\BranchController.class
+com\franchise\api\controller\ProductController.class
+com\franchise\api\repository\BranchRepository.class
